@@ -1,0 +1,98 @@
+div.StoreContainer {
+    width: 90%;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+div.PaginationContainer {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PaginationButton{
+    box-shadow: 0px 2px 5px black;
+    color: white;
+    background-color: rgb(104, 104, 230);
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.ProductCard {
+    box-shadow: 5px 5px 6px;
+    width: 300px;
+    height: 350px;
+    word-wrap: break-word;
+    text-align: left;
+    align-content: center;
+    padding: 25px 25px 25px 25px;
+    background-color: white;
+    transition-duration: .25s;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.ProductCard img{
+    margin-left: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    width: 100px;
+    transition-duration: .25s;
+}
+
+.ProductCard:hover img{
+    transform: scale(1.1);
+}
+
+.ProductCard:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+
+.ProductName {
+    font-size: inherit;
+    background-color: inherit;
+    margin-bottom: 15px;
+}
+
+.ProductPrice {
+    background-color: inherit;
+    margin-bottom: 30px;
+}
+
+.PurchaseButton {
+    position: absolute;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-top: 260px;
+    border-radius: 15px;
+    border: 0px;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: .25s;
+}
+
+.PurchaseButton:hover {
+    background-color: rgb(92, 92, 255);
+    color: white;
+
+}
+  
